@@ -1,0 +1,169 @@
+.ui-button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+    font-family: Century Gothic, bold ;
+    font-size: 7px;
+}
+
+/*Шапка*/
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #E50000;
+}
+
+.main-header-container {
+    position: fixed;
+    display: flex;
+    width: 393px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+.header-item1 {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.header-item2 {
+    display: flex;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+.header-item3 {
+    display: flex;
+    padding-left: 64px;
+}
+.header-item4 {
+    display: flex;
+    padding-left: 15px;
+}
+
+body {
+    display: flex;
+    width: 393px;
+    margin: 0px;
+}
+html {
+    width: 393px;
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 393px;
+    padding-top: 60px;
+    
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    font-family: Handwritten_Institute;
+    font-size: 30px;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 210px;
+}
+.contact-rows {
+    display: flex;
+    height: 35px;
+}
+
+.hello-container1 {
+    font-family: Handwritten_Institute;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 32px;
+    padding-top: 40px;
+}
+.hello-rows1 {
+    display: flex;
+    height: 50px;
+}
+
+.hello-container2 {
+    font-family: Century Gothic, bold;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 32px;
+    padding-top: 200px;
+}
+.hello-rows2 {
+    display: flex;
+    height: 175px;
+    width: 155px;
+}
+
+.hello-container3 {
+    position: absolute;
+    padding-top: 500px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.hello-rows3-main {
+    padding-left: 100px;
+    font-family: Handwritten_Institute;
+    font-size: 35px;
+    height: 100px;
+}
+.hello-rows3-main2 {
+    font-family: Century Gothic, bold;
+    padding-left: 36px;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+.hello-rows3 {
+    font-family: Century Gothic, bold;
+    display: flex;
+    gap: 73px;
+    font-size: 10px;
+    padding-left: 205px;
+}
+
+.hello-container4 {
+    position: absolute;
+    padding-top: 800px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.hello-rows4-main {
+    font-family: Handwritten_Institute;
+    font-size: 35px;
+    height: 100px;
+    padding-left: 32px;
+}
+.hello-rows4 {
+    font-family: Century Gothic, bold;
+    display: flex;
+    font-size: 12px;
+    padding-left: 32px;
+    gap: 67px;
+    height: 20px;
+}
+.hello-rows4-2 {
+    font-family: Handwritten_Institute;
+    display: flex;
+    font-size: 15px;
+    padding-left: 32px;
+    gap: 85px;
+}

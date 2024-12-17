@@ -1,0 +1,97 @@
+.ui-button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+    font-family: Century Gothic, bold ;
+    font-size: 7px;
+}
+
+/*Шапка*/
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #E50000;
+}
+
+.main-header-container {
+    position: fixed;
+    display: flex;
+    width: 393px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+.header-item1 {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.header-item2 {
+    display: flex;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+.header-item3 {
+    display: flex;
+    padding-left: 64px;
+}
+.header-item4 {
+    display: flex;
+    padding-left: 15px;
+}
+
+body {
+    display: flex;
+    width: 393px;
+    margin: 0px;
+}
+html {
+    width: 393px;
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+}
+.content-container1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-top: 170px;
+    gap: 40px;
+}
+.imaa {
+    border-radius: 10px;
+    box-shadow: 0 0 10px #909090;
+}
+
+.content-container2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-top: 950px;
+    gap: 40px;
+}
+
+.content-container3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-top: 1750px;
+    gap: 40px;
+}
+
+.content-container4 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-top: 3500px;
+}
